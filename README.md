@@ -18,11 +18,17 @@ For this assignment, I organised and analysed a database of 1,000 sample project
 
 **Pivot Table**
 
+![image](https://github.com/user-attachments/assets/e42cfb98-6a8e-4022-99f5-72ef54e2399b)
+
 - Create a new sheet with a pivot table that analyses your initial worksheet to count how many campaigns were successful, failed, cancelled, or are currently live per category.
+  ![image](https://github.com/user-attachments/assets/7aff616c-ab6d-48dd-be2e-01db8b26a281)
+  
 - Create a stacked-column pivot chart that can be filtered by country based on the table that you created.
 - The dates in the deadline and launched_at columns use Unix timestamps. Create a new column named Date Created Conversion Formula used to to convert the data contained in launched_at into Excel's date format = (((A1/60)/60)/24)+DATE(1970,1,1)
-- Create a new column named Date Ended Conversion that will use =(((O2/60)/60)/24)+DATE(1970,1,1) to convert the data contained in deadline into Excel's date format.
-- Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
+  - Create a new column named Date Ended Conversion that will use =(((O2/60)/60)/24)+DATE(1970,1,1) to convert the data contained in deadline into Excel's date format.
+  - Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
+  ![image](https://github.com/user-attachments/assets/9c65007e-49d0-406d-b022-e3e78dd16a7c)
+
 - Now, create a pivot-chart line graph that visualises this new table.
 - Create a new sheet with 8 columns:
   - Goal
@@ -49,6 +55,7 @@ For this assignment, I organised and analysed a database of 1,000 sample project
 - Using the COUNTIFS() formula, count how many successful, failed, and cancelled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Cancelled columns with these data points.
 - Add up each of the values in the Number Successful, Number Failed, and Number Cancelled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or cancelled per goal range.
 - Create a line chart that graphs the relationship between a goal amount and its chances of success, failure, or cancellation.
+![image](https://github.com/user-attachments/assets/7b76cb27-1dda-4ee0-b6c7-fb9e08d69ba3)
 
 **Statistical Analysis**
 
